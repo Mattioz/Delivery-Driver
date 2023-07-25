@@ -6,11 +6,11 @@ public class Collision : MonoBehaviour
 {
     void OnCollisionEnter2D(Collision2D other) 
     {
-        
+        Debug.Log("Collision !!!");
     }
 
     void OnTriggerEnter2D(Collider2D other) 
     {
-        
+        Debug.Log("Collition Trigger !!!");
     }
 }
