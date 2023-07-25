@@ -16,7 +16,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Roads
   - 
   - 
   - 
@@ -40,7 +40,4 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
-    locked: 0
-  - name: Player
-    uniqueID: 1570558369
     locked: 0
