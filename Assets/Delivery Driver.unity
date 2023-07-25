@@ -729,6 +729,7 @@ GameObject:
   - component: {fileID: 388504208}
   - component: {fileID: 388504207}
   - component: {fileID: 388504206}
+  - component: {fileID: 388504211}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -748,8 +749,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a459157ddf5fac74280c438b0f7f8e4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  steerSpeed: 1
-  moveSpeed: 0.01
+  steerSpeed: 200
+  moveSpeed: 10
 --- !u!61 &388504207
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -890,6 +891,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &388504211
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 388504205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe4a9ea6b05543e47b62940a59740cf7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &433524424
 GameObject:
   m_ObjectHideFlags: 0
